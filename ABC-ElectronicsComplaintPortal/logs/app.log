@@ -1,0 +1,45 @@
+2021-11-10 00:23:26,290 INFO com.AbcElectronicsComplaintPortalApplication [main] Starting AbcElectronicsComplaintPortalApplication using Java 16.0.2 on LIN33004062 with PID 2272 (C:\Users\RAJARORA\eclipse-workspace\ABC-ElectronicsComplaintportal8M\ABC-ElectronicsComplaintPortal\target\classes started by rajarora in C:\Users\RAJARORA\eclipse-workspace\ABC-ElectronicsComplaintportal8M\ABC-ElectronicsComplaintPortal)
+2021-11-10 00:23:26,281 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-10 00:23:26,302 INFO com.AbcElectronicsComplaintPortalApplication [main] No active profile set, falling back to default profiles: default
+2021-11-10 00:23:27,198 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-10 00:23:27,252 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+2021-11-10 00:23:27,952 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-11-10 00:23:27,960 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-10 00:23:27,961 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-10 00:23:27,961 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-10 00:23:28,048 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-10 00:23:28,048 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1697 ms
+2021-11-10 00:23:28,242 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-10 00:23:28,284 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-10 00:23:28,403 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-10 00:23:28,498 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-10 00:23:28,888 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-10 00:23:28,925 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-11-10 00:23:29,656 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,657 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] constraint "fkplo7mjgv05j8fbs20b37ant5e" of relation "complaint" does not exist, skipping
+2021-11-10 00:23:29,657 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,657 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "emp_complaint" does not exist, skipping
+2021-11-10 00:23:29,658 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,658 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "emp_complaint" does not exist, skipping
+2021-11-10 00:23:29,659 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,659 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] constraint "fksj9mpdo5xxhd1qaph4m47gixv" of relation "engineer" does not exist, skipping
+2021-11-10 00:23:29,660 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,660 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] constraint "fkkymkj6ds5ljjuu5fyryppvq1q" of relation "product" does not exist, skipping
+2021-11-10 00:23:29,661 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,661 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "product_complaints" does not exist, skipping
+2021-11-10 00:23:29,661 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,661 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "product_complaints" does not exist, skipping
+2021-11-10 00:23:29,670 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,670 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] drop cascades to constraint fkj6cdlx30x4cxhvwyt483cxa6f on table client_complaint_list
+2021-11-10 00:23:29,675 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,675 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "emp" does not exist, skipping
+2021-11-10 00:23:29,675 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,676 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "emp_complaint" does not exist, skipping
+2021-11-10 00:23:29,681 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-11-10 00:23:29,681 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "product_complaints" does not exist, skipping
+2021-11-10 00:23:29,763 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-10 00:23:29,771 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 00:23:30,473 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 00:23:31,408 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-10 00:23:31,428 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-10 00:23:32,044 INFO com.AbcElectronicsComplaintPortalApplication [main] Started AbcElectronicsComplaintPortalApplication in 6.079 seconds (JVM running for 7.08)
